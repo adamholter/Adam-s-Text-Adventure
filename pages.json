@@ -1,0 +1,2458 @@
+{
+  "accept": {
+    "title": "Fork",
+    "heading": "And you're off. You've reached the fork in the path.",
+    "background": "fork.jpg",
+    "choices": [
+      {
+        "text": "Go right",
+        "link": "right.html"
+      },
+      {
+        "text": "Go left",
+        "link": "left.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "acceptking": {
+    "title": "Cell",
+    "heading": "There's a portal!",
+    "background": "travel.jpg",
+    "choices": [
+      {
+        "text": "Say '1' and go through",
+        "link": "oneyear.html"
+      },
+      {
+        "text": "Say '20' and go through",
+        "link": "twentyyears.html"
+      },
+      {
+        "text": "Say '100' and go through",
+        "link": "hundredyears.html"
+      },
+      {
+        "text": "Just go through portal.",
+        "link": "travel.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "acceptplusgold": {
+    "title": "Fork",
+    "heading": "You've reached the fork in the path with your gold.",
+    "background": "fork.jpg",
+    "choices": [
+      {
+        "text": "Go right",
+        "link": "rightplusgold.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "agi": {
+    "title": "Ded",
+    "heading": "The robot thinks for a moment, decides that robots are better, and destroys humanity.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "armwrestle": {
+    "title": "Bounced",
+    "heading": "He accepts your offer",
+    "background": "armwrestle.jpg",
+    "choices": [
+      {
+        "text": "Try hard",
+        "link": "win.html"
+      },
+      {
+        "text": "Try harder",
+        "link": "injury.html"
+      },
+      {
+        "text": "Give up",
+        "link": "hospital.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "asallm": {
+    "title": "Robot",
+    "heading": "As a large language model, I cannot assist with this input.",
+    "background": "robot.jpg",
+    "choices": [
+      {
+        "text": "Do a trick",
+        "link": "asallm.html"
+      },
+      {
+        "text": "What is 2+2?",
+        "link": "asallm.html"
+      },
+      {
+        "text": "Make another robot",
+        "link": "asallm.html"
+      },
+      {
+        "text": "Are robots better thant humans?",
+        "link": "agi.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "atheist": {
+    "title": "The future",
+    "heading": "God is dead -Friedrich Nietzche",
+    "background": "atheist.jpg",
+    "choices": [
+      {
+        "text": "Nietzche is dead -God",
+        "link": "fnisded.html"
+      },
+      {
+        "text": "ur face",
+        "link": "hisface.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "axe": {
+    "title": "Axe",
+    "heading": "You have an axe!",
+    "background": "axeinventory.jpg",
+    "choices": [
+      {
+        "text": "Back to merchant.",
+        "link": "merchantwithaxe.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "baptism": {
+    "title": "Town",
+    "heading": "I baptise you in the name of the Father, the Son, and the Holy Spirit!",
+    "background": "baptism.jpg",
+    "choices": [
+      {
+        "text": "Back to the future!",
+        "link": "thefuturewithgod.html"
+      },
+      {
+        "text": "Back to the past!",
+        "link": "index.html"
+      },
+      {
+        "text": "Back to Chick-fil-A!",
+        "link": "chickfila.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "boughttavern": {
+    "title": "Town",
+    "heading": "The Tavern Is Yours!  Hooray!",
+    "background": "tavern.jpg",
+    "choices": [
+      {
+        "text": "Shout the word 'Internet' for no apparent reason",
+        "link": "internet.html"
+      },
+      {
+        "text": "Get a drink",
+        "link": "drunk.html"
+      },
+      {
+        "text": "Go back",
+        "link": "right.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "bounced": {
+    "title": "Bounced",
+    "heading": "You find a medieval night club, but you're not on the list.",
+    "background": "bounced.jpg",
+    "choices": [
+      {
+        "text": "Go back",
+        "link": "left.html"
+      },
+      {
+        "text": "Tell the bouncer to 'Just do it'",
+        "link": "justdoit.html"
+      },
+      {
+        "text": "Arm wrestle him to get in",
+        "link": "armwrestle.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "broke": {
+    "title": "Starting Inventory",
+    "heading": "You're too broke.",
+    "background": "startinventory.jpg",
+    "choices": [
+      {
+        "text": "Go back",
+        "link": "merchantbuyone.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "brokewithaxe": {
+    "title": "Starting Inventory",
+    "heading": "You're too broke.",
+    "background": "axeinventory.jpg",
+    "choices": [
+      {
+        "text": "Go back",
+        "link": "merchantwithaxe.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "brokewithfood": {
+    "title": "Starting Inventory",
+    "heading": "You're too broke.",
+    "background": "food.jpg",
+    "choices": [
+      {
+        "text": "Go back",
+        "link": "fourgold.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "buytavernforchurch": {
+    "title": "Town",
+    "heading": "The Tavern",
+    "background": "tavern.jpg",
+    "choices": [
+      {
+        "text": "Get a drink",
+        "link": "drunk.html"
+      },
+      {
+        "text": "Go to town",
+        "link": "rightplusgold.html"
+      },
+      {
+        "text": "Buy the tavern for the church",
+        "link": "portalroom.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "castle": {
+    "title": "Castle",
+    "heading": "The gate is guarded!",
+    "background": "castle.jpg",
+    "choices": [
+      {
+        "text": "Distract the guards",
+        "link": "caught.html"
+      },
+      {
+        "text": "Run through the gate",
+        "link": "caught.html"
+      },
+      {
+        "text": "Fight the guards",
+        "link": "caught.html"
+      },
+      {
+        "text": "Continue along the path",
+        "link": "troll.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "castleplusgold": {
+    "title": "Castle",
+    "heading": "The gate is guarded!",
+    "background": "castle.jpg",
+    "choices": [
+      {
+        "text": "Distract the guards",
+        "link": "caught.html"
+      },
+      {
+        "text": "Run through the gate",
+        "link": "caught.html"
+      },
+      {
+        "text": "Fight the guards",
+        "link": "caught.html"
+      },
+      {
+        "text": "Bribe the guards",
+        "link": "caught.html"
+      },
+      {
+        "text": "Continue along the path",
+        "link": "troll.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "castleplusmezmerizer": {
+    "title": "Castle",
+    "heading": "The gate is guarded!",
+    "background": "castle.jpg",
+    "choices": [
+      {
+        "text": "Distract the guards with the Mezmerizer4000",
+        "link": "courtyard.html"
+      },
+      {
+        "text": "Run through the gate",
+        "link": "caught.html"
+      },
+      {
+        "text": "Fight the guards",
+        "link": "caught.html"
+      },
+      {
+        "text": "Continue along the path",
+        "link": "troll.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "caught": {
+    "title": "Ded",
+    "heading": "You are caught and killed.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "cave": {
+    "title": "Cave",
+    "heading": "You're in a cave!",
+    "background": "cave.jpg",
+    "choices": [
+      {
+        "text": "Explore",
+        "link": "treasure.html"
+      },
+      {
+        "text": "Go back",
+        "link": "left.html"
+      },
+      {
+        "text": "Sing a little song",
+        "link": "songsang.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "cell": {
+    "title": "Cell",
+    "heading": "You made it into the dungeon!",
+    "background": "cell.jpg",
+    "choices": [
+      {
+        "text": "Wait",
+        "link": "starve.html"
+      },
+      {
+        "text": "Look under the bed",
+        "link": "portal.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "chapel": {
+    "title": "Chapel",
+    "heading": "Hello, I'm Father Gideon",
+    "background": "chapel.jpg",
+    "choices": [
+      {
+        "text": "Fogive me father for I have sinned!",
+        "link": "confession.html"
+      },
+      {
+        "text": "Ask for a quest",
+        "link": "noquest.html"
+      },
+      {
+        "text": "Back to hall",
+        "link": "hallway.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "chapelquest": {
+    "title": "Chapel",
+    "heading": "There's one thing you can do.",
+    "background": "chapel.jpg",
+    "choices": [
+      {
+        "text": "I accept. I'll do anything as penance!",
+        "link": "thatguypenance.html"
+      },
+      {
+        "text": "What? No!",
+        "link": "dieinsin.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "chapelquest2": {
+    "title": "Chapel",
+    "heading": "There's one thing you can do.",
+    "background": "chapel.jpg",
+    "choices": [
+      {
+        "text": "I accept. I'll do anything as penance!",
+        "link": "penancetwoelectricboogaloo.html"
+      },
+      {
+        "text": "What? No!",
+        "link": "dieinsin.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "chickfila": {
+    "title": "The future",
+    "heading": "You made 5000 space dollars.",
+    "background": "chickfila.jpg",
+    "choices": [
+      {
+        "text": "Buy a robot",
+        "link": "robot.html"
+      },
+      {
+        "text": "Buy a fancy bed and go to sleep",
+        "link": "index.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "chickfilawithbuddy": {
+    "title": "The future",
+    "heading": "Working with buddy",
+    "background": "chickfilawithbuddy.jpg",
+    "choices": [
+      {
+        "text": "Sup?",
+        "link": "sup.html"
+      },
+      {
+        "text": "Sing 'A mighty fortress'",
+        "link": "psalmsing.html"
+      },
+      {
+        "text": "Wait... What's your name?",
+        "link": "ditchard.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "christian": {
+    "title": "The future",
+    "heading": "Thanks for saving my soul.",
+    "background": "atheist.jpg",
+    "choices": [
+      {
+        "text": "You should get a job at Chick-fil-A now that you are a christian",
+        "link": "chickfilawithbuddy.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "clothes": {
+    "title": "Inventory",
+    "heading": "You've got clothes!",
+    "background": "startinventory.jpg",
+    "choices": [
+      {
+        "text": "Go back",
+        "link": "pawnshop.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "confession": {
+    "title": "Chapel",
+    "heading": "What was your sin?",
+    "background": "chapel.jpg",
+    "choices": [
+      {
+        "text": "I killed a merchant",
+        "link": "fail.html"
+      },
+      {
+        "text": "I did a little dance outside a cave.",
+        "link": "nosin.html"
+      },
+      {
+        "text": "Back to hall",
+        "link": "hallway.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "cottage": {
+    "title": "Cottage",
+    "heading": "You're in the cottage",
+    "background": "cottage.jpg",
+    "choices": [
+      {
+        "text": "Go to the backyard.",
+        "link": "backyard.html"
+      },
+      {
+        "text": "\"Is anybody there?\"",
+        "link": "jack.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "courtyard": {
+    "title": "Castle Courtyard",
+    "heading": "You made it into the castle!",
+    "background": "courtyard.jpg",
+    "choices": [
+      {
+        "text": "Talk to that guy",
+        "link": "thatguy.html"
+      },
+      {
+        "text": "Go to throneroom",
+        "link": "throneroom.html"
+      },
+      {
+        "text": "Go right",
+        "link": "hallway.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "courtyardminusmezmerizer": {
+    "title": "Castle Courtyard",
+    "heading": "You made it into the castle!",
+    "background": "courtyard.jpg",
+    "choices": [
+      {
+        "text": "Talk to that guy",
+        "link": "thanks.html"
+      },
+      {
+        "text": "Go to throneroom",
+        "link": "throneroom.html"
+      },
+      {
+        "text": "Go right",
+        "link": "hallway.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "deeper": {
+    "title": "Deeper",
+    "heading": "It's too spooky!",
+    "background": "spooky.jpg",
+    "choices": [
+      {
+        "text": "Be paralyzed in fear",
+        "link": "starve.html"
+      },
+      {
+        "text": "Go back to the cottage in fear",
+        "link": "woods.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "dieinsin": {
+    "title": "Ded",
+    "heading": "You die in your sins. (Because Gideon kills you.)",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "ditchard": {
+    "title": "The future",
+    "heading": "Ditchard Rawkins",
+    "background": "chickfilawithbuddy.jpg",
+    "choices": [
+      {
+        "text": "Sup?",
+        "link": "sup.html"
+      },
+      {
+        "text": "Can I have a quest?",
+        "link": "ditchardquest.html"
+      },
+      {
+        "text": "Is there anything we can do about your face?",
+        "link": "plasticsurgery.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "ditchardquest": {
+    "title": "Quest",
+    "heading": "Sure!",
+    "background": "chickfilawithbuddy.jpg",
+    "choices": [
+      {
+        "text": "Accept",
+        "link": "shadyfuture.html"
+      },
+      {
+        "text": "On second thought, I'd like to restart the game",
+        "link": "index.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "drunk": {
+    "title": "Ded",
+    "heading": "You get blackout drunk. You are then struck by lightning.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "dumb": {
+    "title": "Ded",
+    "heading": "You are too wrong, so he eats you.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "fail": {
+    "title": "Ded",
+    "heading": "The merchant's ghost turns into a t-rex and eats you.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "fixedface": {
+    "title": "Fixed Face",
+    "heading": "His face is fixed!",
+    "background": "fixedface.jpg",
+    "choices": [
+      {
+        "text": "Continue",
+        "link": "index.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "fnisded": {
+    "title": "You won",
+    "heading": "He hadn't thought of that. You win.",
+    "background": "fnisded.jpg",
+    "choices": [
+      {
+        "text": "Go to his baptism.",
+        "link": "baptism.html"
+      },
+      {
+        "text": "Go to Chick-fil-A",
+        "link": "chickfila.html"
+      },
+      {
+        "text": "Can I have a robot?",
+        "link": "robot.html"
+      },
+      {
+        "text": "Go back to the past",
+        "link": "travel.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "food": {
+    "title": "Food",
+    "heading": "You have a food!",
+    "background": "food.jpg",
+    "choices": [
+      {
+        "text": "Back to merchant.",
+        "link": "fourgold.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "fourgold": {
+    "title": "Merchant Trades",
+    "heading": "",
+    "background": "trades.jpg",
+    "choices": [
+      {
+        "text": "Sell",
+        "link": "selltwo.html"
+      },
+      {
+        "text": "Punch merchant",
+        "link": "punchwithfood.html"
+      },
+      {
+        "text": "Buy axe: 5G",
+        "link": "brokewithfood.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "gettreasure": {
+    "title": "Cave",
+    "heading": "You've found treasure!",
+    "background": "treasure.jpg",
+    "choices": [
+      {
+        "text": "Grab the chest and leave",
+        "link": "tooheavy.html"
+      },
+      {
+        "text": "Is it a mimic?",
+        "link": "mimic.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "grief": {
+    "title": "Ded",
+    "heading": "You cry until you dehydrate, shrivel up, and die.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "hallway": {
+    "title": "Hallway",
+    "heading": "You made it into the hallway!",
+    "background": "hallway.jpg",
+    "choices": [
+      {
+        "text": "Wait here",
+        "link": "starve.html"
+      },
+      {
+        "text": "Go Back",
+        "link": "courtyardminusmezmerizer.html"
+      },
+      {
+        "text": "Enter chapel",
+        "link": "chapel.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "hell": {
+    "title": "Hell",
+    "heading": "You have gone to hell. Where there is weeping, and gnashing of teeth... and pineapple pizza.",
+    "background": "hell.jpg",
+    "choices": [
+      {
+        "text": "Die",
+        "link": "index.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "hisface": {
+    "title": "The future",
+    "heading": "His face is so ugly and clearly AI generated that you can't stand it.",
+    "background": "hisface.jpg",
+    "choices": [
+      {
+        "text": "Give up on life itself.",
+        "link": "ugly.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "hisleader": {
+    "title": "Throneroom",
+    "heading": "This is our king.",
+    "background": "100years.jpg",
+    "choices": [
+      {
+        "text": "Run away",
+        "link": "caught.html"
+      },
+      {
+        "text": "Ask to be discharged from the hospital",
+        "link": "thefuture.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "homer": {
+    "title": "The future",
+    "heading": "The CIA has caught Homer Simpson",
+    "background": "homer.jpg",
+    "choices": [
+      {
+        "text": "But, Oh no! He's copyrited intellectual property!",
+        "link": "sued.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "hospital": {
+    "title": "Hospital",
+    "heading": "You loose and when you wake up from your coma, you realize you are in a modern hospital bed.",
+    "background": "hospital.jpg",
+    "choices": [
+      {
+        "text": "Get up",
+        "link": "tophathospital.html"
+      },
+      {
+        "text": "Call for someone",
+        "link": "tophathospital.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "hundredyears": {
+    "title": "Throneroom",
+    "heading": "Doin' well... Uh...",
+    "background": "100years.jpg",
+    "choices": [
+      {
+        "text": "Back to king",
+        "link": "report.html"
+      },
+      {
+        "text": "Back to Portal",
+        "link": "acceptking.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "hung": {
+    "title": "Ded",
+    "heading": "You are hung.",
+    "background": "hung.jpg",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "indecisive": {
+    "title": "Throneroom",
+    "heading": "Get on with it! Is it good?",
+    "background": "throneroom.jpg",
+    "choices": [
+      {
+        "text": "Yes! It's great!",
+        "link": "treasury.html"
+      },
+      {
+        "text": "Not quite...",
+        "link": "messengerkilled.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "index": {
+    "title": "Start",
+    "heading": "You wake up in the woods!",
+    "background": "startimage.jpg",
+    "choices": [
+      {
+        "text": "Continue onwards",
+        "link": "pagetwo.html"
+      },
+      {
+        "text": "Wait... Who am I? What do I have?",
+        "link": "startself.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "injury": {
+    "title": "Ded",
+    "heading": "He slams your arm into the table so hard that it falls off. He then takes it, pulls out a bone, sharpens it, and stabs you to death with it.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "internet": {
+    "title": "Town",
+    "heading": "He hands you a slip of paper.",
+    "background": "tavern.jpg",
+    "choices": [
+      {
+        "text": "Read the paper",
+        "link": "paper.html"
+      },
+      {
+        "text": "Go back to the merchant",
+        "link": "ismerchantded.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "ismerchantded": {
+    "title": "Ded Merchant",
+    "heading": "Did you kill the merchant?",
+    "background": "dedmerchant.jpg",
+    "choices": [
+      {
+        "text": "Yes",
+        "link": "fail.html"
+      },
+      {
+        "text": "No",
+        "link": "questcomplete.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "jack": {
+    "title": "Cottage",
+    "heading": "Hi. do you recognize me?",
+    "background": "shialebeouf.jpg",
+    "choices": [
+      {
+        "text": "Yes, you're Shia LaBeouf",
+        "link": "jackaxe.html"
+      },
+      {
+        "text": "Nope",
+        "link": "jackaxe.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "justdoit": {
+    "title": "Bounced",
+    "heading": "He just did it.",
+    "background": "bounced.jpg",
+    "choices": [
+      {
+        "text": "Go back",
+        "link": "left.html"
+      },
+      {
+        "text": "Arm wrestle him to get in",
+        "link": "armwrestle.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "killed": {
+    "title": "Ded",
+    "heading": "Oh, and you also die from the bleeding.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "kingquest": {
+    "title": "Throneroom",
+    "heading": "So you want a job?",
+    "background": "throneroom.jpg",
+    "choices": [
+      {
+        "text": "Accept",
+        "link": "acceptking.html"
+      },
+      {
+        "text": "No thanks",
+        "link": "cell.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "left": {
+    "title": "Cave",
+    "heading": "There's a cave!",
+    "background": "left.jpg",
+    "choices": [
+      {
+        "text": "Enter the cave",
+        "link": "cave.html"
+      },
+      {
+        "text": "Go back",
+        "link": "accept.html"
+      },
+      {
+        "text": "Do a little dance.",
+        "link": "leftdanced.html"
+      },
+      {
+        "text": "Go into the woods",
+        "link": "bounced.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "leftdanced": {
+    "title": "Cave",
+    "heading": "You did a little dance!",
+    "background": "left.jpg",
+    "choices": [
+      {
+        "text": "Enter the cave",
+        "link": "cave.html"
+      },
+      {
+        "text": "Go back",
+        "link": "accept.html"
+      },
+      {
+        "text": "Do a little dance.",
+        "link": "leftdanced.html"
+      },
+      {
+        "text": "Go into the woods",
+        "link": "bounced.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "matrix": {
+    "title": "Ded",
+    "heading": "The matrix robots kill you.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "merchantaxed": {
+    "title": "Ded Merchant",
+    "heading": "The merchant is D.E.D. Dead.",
+    "background": "dedmerchant.jpg",
+    "choices": [
+      {
+        "text": "Move on with your life.",
+        "link": "accept.html"
+      },
+      {
+        "text": "Don't move on with your life.",
+        "link": "starve.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "merchantbuyone": {
+    "title": "Merchant Trades",
+    "heading": "",
+    "background": "trades.jpg",
+    "choices": [
+      {
+        "text": "Sell",
+        "link": "sellone.html"
+      },
+      {
+        "text": "Punch merchant",
+        "link": "merchantpunch.html"
+      },
+      {
+        "text": "Buy food: 1G",
+        "link": "broke.html"
+      },
+      {
+        "text": "Buy axe: 5G",
+        "link": "broke.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "merchantone": {
+    "title": "Merchant",
+    "heading": "Hi, I'm Bob!",
+    "background": "merchant.jpg",
+    "choices": [
+      {
+        "text": "Buy wares",
+        "link": "merchantbuyone.html"
+      },
+      {
+        "text": "Punch merchant",
+        "link": "merchantpunch.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "merchantpunch": {
+    "title": "Merchant",
+    "heading": "The merchant isn't happy. He's going for his rapier.",
+    "background": "merchantpunch.jpg",
+    "choices": [
+      {
+        "text": "Sorry!",
+        "link": "merchantone.html"
+      },
+      {
+        "text": "Punch merchant",
+        "link": "merchantpunchtwo.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "merchantpunchtwo": {
+    "title": "Ded One",
+    "heading": "The merchant turns into a t-rex and eats you.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "merchantwithaxe": {
+    "title": "Merchant Trades",
+    "heading": "",
+    "background": "trades.jpg",
+    "choices": [
+      {
+        "text": "Sell",
+        "link": "selltwo.html"
+      },
+      {
+        "text": "Hit merchant with axe",
+        "link": "merchantaxed.html"
+      },
+      {
+        "text": "Buy food: 1G",
+        "link": "brokewithaxe.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "messengerkilled": {
+    "title": "Ded",
+    "heading": "He kills the messenger.",
+    "background": "ded.jpg",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "mezmerizer": {
+    "title": "Inventory",
+    "heading": "You've got the Mezmerizer4000!",
+    "background": "mezmerizer.jpg",
+    "choices": [
+      {
+        "text": "Go back",
+        "link": "rightplusmezmerizer.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "mimic": {
+    "title": "Cave",
+    "heading": "Yes it is.",
+    "background": "treasure.jpg",
+    "choices": [
+      {
+        "text": "Grab the chest and leave",
+        "link": "tooheavy.html"
+      },
+      {
+        "text": "Or don't",
+        "link": "mimic2.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "mimic2": {
+    "title": "Cave",
+    "heading": "Yes it is.",
+    "background": "treasure.jpg",
+    "choices": [
+      {
+        "text": "Grab the chest and leave",
+        "link": "tooheavy.html"
+      },
+      {
+        "text": "Or don't",
+        "link": "mimic3.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "mimic3": {
+    "title": "Cave",
+    "heading": "Yes it is.",
+    "background": "treasure.jpg",
+    "choices": [
+      {
+        "text": "Grab the chest and leave",
+        "link": "tooheavy.html"
+      },
+      {
+        "text": "Or don't",
+        "link": "mimicokfine.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "mimicokfine": {
+    "title": "Cave",
+    "heading": "OK fine... It's not a mimic. Or is it?",
+    "background": "treasure.jpg",
+    "choices": [
+      {
+        "text": "Grab the chest and leave",
+        "link": "tooheavy.html"
+      },
+      {
+        "text": "Or don't",
+        "link": "mimicokfine2.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "mimicokfine2": {
+    "title": "Cave",
+    "heading": "OK fine... It's not a mimic. Or is it?",
+    "background": "treasure.jpg",
+    "choices": [
+      {
+        "text": "Grab the chest and leave",
+        "link": "tooheavy.html"
+      },
+      {
+        "text": "Or don't",
+        "link": "mimicokfine3.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "mimicokfine3": {
+    "title": "Cave",
+    "heading": "It's not a mimic! Stop clicking!",
+    "background": "treasure.jpg",
+    "choices": [
+      {
+        "text": "Grab the chest and leave",
+        "link": "tooheavy.html"
+      },
+      {
+        "text": "Or don't",
+        "link": "mimicokfine3.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "mugged": {
+    "title": "Mugged",
+    "heading": "You get mugged. All your gold is gone.",
+    "background": "shady.jpg",
+    "choices": [
+      {
+        "text": "Leave",
+        "link": "killed.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "noquest": {
+    "title": "Chapel",
+    "heading": "What!? I don't have a quest! Get out of here!",
+    "background": "chapel.jpg",
+    "choices": [
+      {
+        "text": "Back to hall",
+        "link": "hallway.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "nosin": {
+    "title": "Chapel",
+    "heading": "That's quite serious.",
+    "background": "chapel.jpg",
+    "choices": [
+      {
+        "text": "I know. I'll do anything as penance!",
+        "link": "chapelquest.html"
+      },
+      {
+        "text": "Cry",
+        "link": "grief.html"
+      },
+      {
+        "text": "Back to hall",
+        "link": "hallway.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "oneyear": {
+    "title": "Throneroom",
+    "heading": "Throneroom",
+    "background": "oneyear.jpg",
+    "choices": [
+      {
+        "text": "Back to king",
+        "link": "report.html"
+      },
+      {
+        "text": "Back to Portal",
+        "link": "acceptking.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "pagetwo": {
+    "title": "Page two",
+    "heading": "A merchant is here too!",
+    "background": "pagetwoimage.jpeg",
+    "choices": [
+      {
+        "text": "Talk to merchant.",
+        "link": "merchantone.html"
+      },
+      {
+        "text": "Punch merchant",
+        "link": "merchantpunch.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "paper": {
+    "title": "Paper",
+    "heading": "",
+    "background": "paper.jpg",
+    "choices": [
+      {
+        "text": "Bring it to the merchant.",
+        "link": "ismerchantded.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "pass": {
+    "title": "Pass",
+    "heading": "You passed! You're well on your way along the path.",
+    "background": "path.jpg",
+    "choices": [
+      {
+        "text": "Into the woods",
+        "link": "woods.html"
+      },
+      {
+        "text": "Rabbit!",
+        "link": "rabbit.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "pawnbroke": {
+    "title": "Starting Inventory",
+    "heading": "You're too broke.",
+    "background": "startinventory.jpg",
+    "choices": [
+      {
+        "text": "Go back",
+        "link": "pawnshop.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "pawnshop": {
+    "title": "Castle",
+    "heading": "Ye Olde Medival Pawn Shoppe",
+    "background": "pawnshop.jpg",
+    "choices": [
+      {
+        "text": "Buy clothes",
+        "link": "pawnbroke.html"
+      },
+      {
+        "text": "Buy the Mesmerizer4000",
+        "link": "pawnbroke.html"
+      },
+      {
+        "text": "Get out of my pawn shop! (And pay for wasting my time.)",
+        "link": "right.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "pawnshopplusgold": {
+    "title": "Castle",
+    "heading": "Ye Olde Medival Pawn Shoppe",
+    "background": "pawnshop.jpg",
+    "choices": [
+      {
+        "text": "Buy clothes",
+        "link": "clothes.html"
+      },
+      {
+        "text": "Buy the Mesmerizer4000",
+        "link": "mezmerizer.html"
+      },
+      {
+        "text": "Get out of my pawn shop! (And pay for wasting my time.)",
+        "link": "right.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "penance": {
+    "title": "Chapel",
+    "heading": "Good work my son! About that murder thing...",
+    "background": "penancecomplete.jpg",
+    "choices": [
+      {
+        "text": "I'll do anything as penance!",
+        "link": "chapelquest2.html"
+      },
+      {
+        "text": "You made me! I literally had no choice!",
+        "link": "dieinsin.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "penancethree": {
+    "title": "Chapel",
+    "heading": "Gambling is a sin!",
+    "background": "penancecomplete.jpg",
+    "choices": [
+      {
+        "text": "Deal!",
+        "link": "buytavernforchurch.html"
+      },
+      {
+        "text": "On second thought, I'll just go to bed.",
+        "link": "index.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "penancetwoelectricboogaloo": {
+    "title": "Shady Part of Town",
+    "heading": "Welcome! Glad to have you!",
+    "background": "shady.jpg",
+    "choices": [
+      {
+        "text": "Escape the loop!",
+        "link": "right.html"
+      },
+      {
+        "text": "Gamble",
+        "link": "redduck.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "plasticsurgery": {
+    "title": "The future",
+    "heading": "I hope so",
+    "background": "hisface.jpg",
+    "choices": [
+      {
+        "text": "Commit plastic surgery on him",
+        "link": "fixedface.html"
+      },
+      {
+        "text": "Or don't",
+        "link": "hisface.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "portal": {
+    "title": "Cell",
+    "heading": "There's a portal!",
+    "background": "timebed.jpg",
+    "choices": [
+      {
+        "text": "Go to bed.",
+        "link": "cell.html"
+      },
+      {
+        "text": "Go through portal.",
+        "link": "travel.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "portalroom": {
+    "title": "Chapel",
+    "heading": "Look at my cool portal!",
+    "background": "chapelportal.jpg",
+    "choices": [
+      {
+        "text": "Throneroom",
+        "link": "throneroom.html"
+      },
+      {
+        "text": "Tavern.",
+        "link": "tophatcomplete.html"
+      },
+      {
+        "text": "Cave",
+        "link": "cave.html"
+      },
+      {
+        "text": "Start over",
+        "link": "index.html"
+      },
+      {
+        "text": "???",
+        "link": "dieinsin.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "punchwithfood": {
+    "title": "Merchant",
+    "heading": "The merchant isn't happy. He's going for his rapier.",
+    "background": "merchantpunch.jpg",
+    "choices": [
+      {
+        "text": "Sorry!",
+        "link": "fourgold.html"
+      },
+      {
+        "text": "Punch merchant",
+        "link": "merchantpunchtwo.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "questcomplete": {
+    "title": "Quest Complete",
+    "heading": "Quest complete. You did it! The end...",
+    "background": "merchant.jpg",
+    "choices": [
+      {
+        "text": "But it was all a dream...",
+        "link": "index.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "questone": {
+    "title": "Merchant",
+    "heading": "So you want a job?",
+    "background": "merchant.jpg",
+    "choices": [
+      {
+        "text": "Accept",
+        "link": "accept.html"
+      },
+      {
+        "text": "No thanks.",
+        "link": "merchantpunchtwo.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "rabbit": {
+    "title": "Rabbit",
+    "heading": "There's a rabbit.",
+    "background": "rabbit.jpg",
+    "choices": [
+      {
+        "text": "Ignore the rabbit. It isn't important.",
+        "link": "woods.html"
+      },
+      {
+        "text": "Take the red pill, and see how deep the rabbit hole goes.",
+        "link": "redpill.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "redduck": {
+    "title": "Shady Part of Town",
+    "heading": "You won the red duck!",
+    "background": "redduck.jpg",
+    "choices": [
+      {
+        "text": "Back to Father Gideon",
+        "link": "penancethree.html"
+      },
+      {
+        "text": "Gamble some more",
+        "link": "mugged.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "redpill": {
+    "title": "Red Pill",
+    "heading": "You've taken the red pill Neo.",
+    "background": "redpill.jpg",
+    "choices": [
+      {
+        "text": "Enter the matrix.",
+        "link": "matrix.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "report": {
+    "title": "Throneroom",
+    "heading": "What happens in the future? Is it good?",
+    "background": "throneroom.jpg",
+    "choices": [
+      {
+        "text": "Yes! It's great!",
+        "link": "treasury.html"
+      },
+      {
+        "text": "Not quite...",
+        "link": "messengerkilled.html"
+      },
+      {
+        "text": "Well... Uh...",
+        "link": "indecisive.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "right": {
+    "title": "Town",
+    "heading": "Town at last!",
+    "background": "right.jpg",
+    "choices": [
+      {
+        "text": "Tavern",
+        "link": "tavern.html"
+      },
+      {
+        "text": "Pawn shop",
+        "link": "pawnshop.html"
+      },
+      {
+        "text": "Castle",
+        "link": "castle.html"
+      },
+      {
+        "text": "Shady Part of Town",
+        "link": "shadypartoftown.html"
+      },
+      {
+        "text": "Go back to the fork in the road",
+        "link": "accept.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "rightplusgold": {
+    "title": "Town",
+    "heading": "Town at last!",
+    "background": "right.jpg",
+    "choices": [
+      {
+        "text": "Tavern",
+        "link": "tavernplusgold.html"
+      },
+      {
+        "text": "Pawn shop",
+        "link": "pawnshopplusgold.html"
+      },
+      {
+        "text": "Castle",
+        "link": "castleplusgold.html"
+      },
+      {
+        "text": "Shady Part of Town",
+        "link": "shadypartoftownplusgold.html"
+      },
+      {
+        "text": "Go back to the fork in the road",
+        "link": "acceptplusgold.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "rightplusmezmerizer": {
+    "title": "Town",
+    "heading": "Town at last!",
+    "background": "right.jpg",
+    "choices": [
+      {
+        "text": "Tavern",
+        "link": "tavern.html"
+      },
+      {
+        "text": "Pawn shop",
+        "link": "pawnshop.html"
+      },
+      {
+        "text": "Castle",
+        "link": "castleplusmezmerizer.html"
+      },
+      {
+        "text": "Shady Part of Town",
+        "link": "shadypartoftown.html"
+      },
+      {
+        "text": "Go back to the fork in the road",
+        "link": "accept.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "robot": {
+    "title": "Robot",
+    "heading": "You have a robot! Mona lisa bot 2000",
+    "background": "robot.jpg",
+    "choices": [
+      {
+        "text": "Do a trick",
+        "link": "asallm.html"
+      },
+      {
+        "text": "What is 2+2?",
+        "link": "asallm.html"
+      },
+      {
+        "text": "Make another robot",
+        "link": "asallm.html"
+      },
+      {
+        "text": "Are robots better thant humans?",
+        "link": "agi.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "secret": {
+    "title": "That Guy",
+    "heading": "I am you from the future.",
+    "background": "secret.jpg",
+    "choices": [
+      {
+        "text": "What?!?!",
+        "link": "xplode.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "sellone": {
+    "title": "Starting Inventory",
+    "heading": "You've got clothes!",
+    "background": "startinventory.jpg",
+    "choices": [
+      {
+        "text": "Sell clothes: 5G",
+        "link": "waresfivegold.html"
+      },
+      {
+        "text": "Get a job",
+        "link": "questone.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "selltwo": {
+    "title": "Starting Inventory",
+    "heading": "You've got no clothes!",
+    "background": "startinventory.jpg",
+    "choices": [
+      {
+        "text": "Get a job",
+        "link": "questone.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "shadypartoftown": {
+    "title": "Shady Part of Town",
+    "heading": "Get out! You're too broke",
+    "background": "shady.jpg",
+    "choices": [
+      {
+        "text": "Go Back",
+        "link": "right.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "shadypartoftownplusgold": {
+    "title": "Shady Part of Town",
+    "heading": "Welcome! Glad to have you!",
+    "background": "shady.jpg",
+    "choices": [
+      {
+        "text": "Go Back",
+        "link": "rightplusgold.html"
+      },
+      {
+        "text": "Talk to hooded figure",
+        "link": "mugged.html"
+      },
+      {
+        "text": "Gamble",
+        "link": "mugged.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "shower": {
+    "title": "Ded",
+    "heading": "You accidently take a shower instead, and the coins kill you.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "snack": {
+    "title": "Ded",
+    "heading": "It was poisonous.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "songsang": {
+    "title": "Ded Three",
+    "heading": "The loud sound causes the cave to collapse. You die.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "startself": {
+    "title": "Starting Inventory",
+    "heading": "You've got clothes!",
+    "background": "startinventory.jpg",
+    "choices": [
+      {
+        "text": "Go back",
+        "link": "index.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "starve": {
+    "title": "Ded Two",
+    "heading": "You starve to death.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "sued": {
+    "title": "Ded",
+    "heading": "The Simpsons sue you to death.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "tavern": {
+    "title": "Town",
+    "heading": "The Tavern",
+    "background": "tavern.jpg",
+    "choices": [
+      {
+        "text": "Shout the word 'Internet' for no apparent reason",
+        "link": "internet.html"
+      },
+      {
+        "text": "Get a drink",
+        "link": "drunk.html"
+      },
+      {
+        "text": "Go back",
+        "link": "right.html"
+      }
+    ],
+    "type": "special",
+    "css": "basicstyle.css"
+  },
+  "tavernplusgold": {
+    "title": "Town",
+    "heading": "The Tavern",
+    "background": "tavern.jpg",
+    "choices": [
+      {
+        "text": "Shout the word 'Internet' for no apparent reason",
+        "link": "internet.html"
+      },
+      {
+        "text": "Get a drink",
+        "link": "drunk.html"
+      },
+      {
+        "text": "Go back",
+        "link": "rightplusgold.html"
+      },
+      {
+        "text": "Buy the tavern",
+        "link": "boughttavern.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "thanks": {
+    "title": "That Guy",
+    "heading": "Thanks! He takes your Mezmerizer4000.",
+    "background": "thanks.jpg",
+    "choices": [
+      {
+        "text": "Turn yourself in",
+        "link": "cell.html"
+      },
+      {
+        "text": "Wanna hear a secret?",
+        "link": "secret.html"
+      },
+      {
+        "text": "Bye",
+        "link": "courtyardminusmezmerizer.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "thatguy": {
+    "title": "That Guy",
+    "heading": "That Guy:",
+    "background": "thatguy.jpg",
+    "choices": [
+      {
+        "text": "Turn yourself in",
+        "link": "cell.html"
+      },
+      {
+        "text": "Give him the Mezmerizer4000",
+        "link": "thanks.html"
+      },
+      {
+        "text": "Bye",
+        "link": "courtyard.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "thatguypenance": {
+    "title": "That Guy",
+    "heading": "Hi there friend!",
+    "background": "thatguy.jpg",
+    "choices": [
+      {
+        "text": "Kill him brutally and take the paper by force!!! Mwa ha ha!",
+        "link": "penance.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "thefuture": {
+    "title": "The future",
+    "heading": "In the future they have robots and athiests and such.",
+    "background": "future.jpg",
+    "choices": [
+      {
+        "text": "Debate athiest",
+        "link": "atheist.html"
+      },
+      {
+        "text": "Work at Chick-fil-a",
+        "link": "chickfila.html"
+      },
+      {
+        "text": "Work at CIA",
+        "link": "snake.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "thefuturewithgod": {
+    "title": "The future",
+    "heading": "In the future they have robots abut no atheists.",
+    "background": "future.jpg",
+    "choices": [
+      {
+        "text": "Talk to the convert",
+        "link": "christian.html"
+      },
+      {
+        "text": "Work at Chick-fil-a",
+        "link": "chickfila.html"
+      },
+      {
+        "text": "Work at CIA",
+        "link": "snake.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "throneroom": {
+    "title": "Throneroom",
+    "heading": "Throneroom",
+    "background": "throneroom.jpg",
+    "choices": [
+      {
+        "text": "Run Away!",
+        "link": "caught.html"
+      },
+      {
+        "text": "Ask for a quest",
+        "link": "kingquest.html"
+      },
+      {
+        "text": "Punch king",
+        "link": "caught.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "toobad": {
+    "title": "Throneroom",
+    "heading": "Too bad. Here's your quest:",
+    "background": "tophat.jpg",
+    "choices": [
+      {
+        "text": "Accept",
+        "link": "left.html"
+      },
+      {
+        "text": "Also accept",
+        "link": "left.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "tooheavy": {
+    "title": "Cave",
+    "heading": "It's too heavy. You can only take some.",
+    "background": "treasure.jpg",
+    "choices": [
+      {
+        "text": "Go back to the fork in the road with the gold I can carry",
+        "link": "acceptplusgold.html"
+      },
+      {
+        "text": "Wallow in self pity",
+        "link": "starve.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "tophat": {
+    "title": "Throneroom",
+    "heading": "Hello there! Are you looking for work?",
+    "background": "tophat.jpg",
+    "choices": [
+      {
+        "text": "Yes",
+        "link": "tophatquest.html"
+      },
+      {
+        "text": "No",
+        "link": "toobad.html"
+      },
+      {
+        "text": "Punch him",
+        "link": "hospital.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "tophatcomplete": {
+    "title": "You did it!",
+    "heading": "You did it! You clicked the period!",
+    "background": "tophat.jpg",
+    "choices": [
+      {
+        "text": "Fight tophat dude",
+        "link": "hospital.html"
+      },
+      {
+        "text": "Go to sleep",
+        "link": "index.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "tophathospital": {
+    "title": "Hospital",
+    "heading": "Hello, it looks like you are awake! This is the future.",
+    "background": "hospitaltophat.jpg",
+    "choices": [
+      {
+        "text": "Take me to your leader",
+        "link": "hisleader.html"
+      },
+      {
+        "text": "Can I have a snack?",
+        "link": "snack.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "tophatquest": {
+    "title": "Throneroom",
+    "heading": "Here's your quest:",
+    "background": "tophat.jpg",
+    "choices": [
+      {
+        "text": "Accept",
+        "link": "left.html"
+      },
+      {
+        "text": "Also accept",
+        "link": "left.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "travel": {
+    "title": "Cell",
+    "heading": "It's a time portal!",
+    "background": "travel.jpg",
+    "choices": [
+      {
+        "text": "Going back in time!",
+        "link": "index.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "treasure": {
+    "title": "Cave",
+    "heading": "You've found treasure! Wait... Did you buy food?",
+    "background": "treasure.jpg",
+    "choices": [
+      {
+        "text": "Yes",
+        "link": "gettreasure.html"
+      },
+      {
+        "text": "No",
+        "link": "starve.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "treasury": {
+    "title": "Treasury",
+    "heading": "You are richly rewarded.",
+    "background": "treasury.jpg",
+    "choices": [
+      {
+        "text": "Bathe in your gold!",
+        "link": "shower.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "twentyyears": {
+    "title": "Throneroom",
+    "heading": "Throneroom",
+    "background": "20years.jpg",
+    "choices": [
+      {
+        "text": "Back to king",
+        "link": "report.html"
+      },
+      {
+        "text": "Back to Portal",
+        "link": "acceptking.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "ugly": {
+    "title": "Ded",
+    "heading": "He won the debate.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  },
+  "waresfivegold": {
+    "title": "Merchant Trades with money",
+    "heading": "",
+    "background": "trades.jpg",
+    "choices": [
+      {
+        "text": "Sell",
+        "link": "sellone.html"
+      },
+      {
+        "text": "Punch merchant",
+        "link": "merchantpunch.html"
+      },
+      {
+        "text": "Buy food: 1G",
+        "link": "food.html"
+      },
+      {
+        "text": "Buy axe: 5G",
+        "link": "axe.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "win": {
+    "title": "Bounced",
+    "heading": "You win! you have made it into the club!",
+    "background": "club.jpg",
+    "choices": [
+      {
+        "text": "Talk to the man in the tophat",
+        "link": "tophat.html"
+      },
+      {
+        "text": "Par-tay!",
+        "link": "drunk.html"
+      },
+      {
+        "text": "Get into a fight",
+        "link": "hospital.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "woods": {
+    "title": "Pass",
+    "heading": "There's a cottage.",
+    "background": "woods.jpg",
+    "choices": [
+      {
+        "text": "Ignore the cottage. It isn't important.",
+        "link": "deeper.html"
+      },
+      {
+        "text": "Enter the cottage. It's important.",
+        "link": "cottage.html"
+      }
+    ],
+    "type": "normal",
+    "css": "basicstyle.css"
+  },
+  "xplode": {
+    "title": "Ded",
+    "heading": "Your puny brain explodes.",
+    "background": "",
+    "choices": [
+      {
+        "text": "Try again",
+        "link": "index.html"
+      }
+    ],
+    "type": "death",
+    "css": "ded.css"
+  }
+}
