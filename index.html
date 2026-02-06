@@ -1,19 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Start</title>
-  <link rel="stylesheet" type="text/css" href="basicstyle.css">
-  <style>
-    body {
-      background-image: url('startimage.jpg');
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Loading...</title>
+  <link rel="stylesheet" type="text/css" href="basicstyle.css" id="main-css">
 </head>
-<body>
-  <h1>You wake up in the woods!</h1>
-  <button><a href="pagetwo.html">Continue onwards</a></button>
-  <button><a href="startself.html">Wait... Who am I? What do I have?</a></button>
-  <p>Note: Any bugs or inconsistencies in the game are not my fault,</p>
-  <p>but a result of your puny little brain that can't understand.</p>
+<body id="game-body">
+  <h1 id="page-heading">Loading...</h1>
+  <div id="choices-container"></div>
+
+  <script>
+    // Load pages data
+    let pagesData = {};
+
+    // Get page ID from URL parameter, default to 'index'
+    function getPageId() {
+      const params = new URLSearchParams(window.location.search);
+      const pageParam = params.get('page');
+
+      // If we're on index.html without a page param, show index page
+      if (!pageParam && window.location.pathname.endsWith('index.html')) {
+        return 'index';
+      }
+
+      return pageParam || 'index';
+    }
+
+    // Load and render page
+    async function loadPage() {
+      try {
+        // Load pages.json
+        const response = await fetch('pages.json');
+        pagesData = await response.json();
+
+        const pageId = getPageId();
+        const pageData = pagesData[pageId];
+
+        if (!pageData) {
+          console.error('Page not found:', pageId);
+          document.getElementById('page-heading').textContent = 'Page not found!';
+          return;
+        }
+
+        renderPage(pageData);
+      } catch (error) {
+        console.error('Error loading page:', error);
+        document.getElementById('page-heading').textContent = 'Error loading page!';
+      }
+    }
+
+    // Render page content
+    function renderPage(pageData) {
+      // Set title
+      document.getElementById('page-title').textContent = pageData.title;
+
+      // Set heading
+      document.getElementById('page-heading').textContent = pageData.heading;
+
+      // Set background image
+      const body = document.getElementById('game-body');
+      if (pageData.background) {
+        body.style.backgroundImage = `url('${pageData.background}')`;
+      }
+
+      // Switch CSS file if needed
+      const cssLink = document.getElementById('main-css');
+      if (pageData.css && pageData.css !== 'basicstyle.css') {
+        cssLink.href = pageData.css;
+      }
+
+      // Render choices
+      const choicesContainer = document.getElementById('choices-container');
+      choicesContainer.innerHTML = '';
+
+      pageData.choices.forEach(choice => {
+        const link = document.createElement('a');
+
+        // Convert old .html links to new ?page= format
+        let href = choice.link;
+        if (href.endsWith('.html')) {
+          const targetPage = href.replace('.html', '');
+
+          // Check if target is a special page that should stay as .html
+          const specialPages = [
+            'hangman', '2048', 'backdoor', 'bruteforce', 'poker',
+            'snake', 'snaketwo', 'clawed-game', 'murder-trial-game',
+            'serious-court-game', 'stakejevenson', 'AI-Video-Comparison',
+            'compare', 'TimeFlow', 'pyramidcolumns', 'mapping',
+            'leadgenmaketool', 'groqer', 'predictor', 'fivethirtyten',
+            'questionaire', 'transcribe', 'tilliamwalbott', 'sirchuck',
+            'troll', 'Pow_Pow_Pow_Youre_Dead_Rules_FAQ',
+            'SojournPresentationOne', 'Sojourn2', 'combinedadventure',
+            'test', '3125'
+          ];
+
+          if (specialPages.includes(targetPage)) {
+            // Keep as .html link
+            link.href = href;
+          } else {
+            // Convert to index.html?page= format
+            link.href = `index.html?page=${targetPage}`;
+          }
+        } else {
+          link.href = href;
+        }
+
+        const button = document.createElement('button');
+        button.textContent = choice.text;
+
+        link.appendChild(button);
+        choicesContainer.appendChild(link);
+      });
+    }
+
+    // Load page when DOM is ready
+    document.addEventListener('DOMContentLoaded', loadPage);
+  </script>
 </body>
 </html>
